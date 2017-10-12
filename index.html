@@ -2,13 +2,14 @@
 <head>
 	<style>
 	/* 애니메이션은 트랜지션과는 다르게 @keyframes를 별도로 이름을 달아서
-		만들어주어야 합니다.(조금 귀찮음) */
+		만들어주어야 합니다.(조금 귀찮음) 예제에서는 kirinMove라는 키프레임을 만들었어요*/
 
 		#kirin{width:400px;height:400px;
 			position:relative;
 			animation:kirinMove 5s infinite linear paused;	}
 	/* 우선 반드시 포지션을 absolute나 relative로 설정해야 합니다.
-	infinite는 문한반복, linear는 속도를 일정하게, paused는 처음엔 멈춰 있으라는 설정입니다. */
+	infinite는 무한반복, linear는 속도를 일정하게, paused는 처음엔 멈춰 있으라는 설정입니다. 
+	w3에 다양한 설정값들이 있어요(참고) */
 
 	/* 이제 kirinMove라고 이름붙인 애니메이션을 만들어 봅시다.(W3사이트 한번 둘러보세요. from,to를 사용해서 시작과 끝만을 지정할수도 있고, 아래처럼 25%, 50%와 같이 퍼센트를 사용해서 중간중간 지정할수도 있습니다. 영상을 배우셨을 테니 키프레임에 대한 설명은 생략하겠습니다.) 
 	kirinMove{} 이 중괄호 안에 다시 키프레임별로 중괄호가 들어갑니다.*/
